@@ -14,7 +14,7 @@ float pago_estacionamiento(int horas)
 		cant = horas*10;
 	if (horas>=6 && horas<=10)
 		cant = horas*9;
-	if (horas>10)
+	if (horas>11)
 		cant = horas*7;
 
 	return cant;
